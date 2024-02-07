@@ -34,7 +34,7 @@ while y<=5:
 string= "Python"
 index = 1
 while index <= len(string):
-    print(str(index))
+    print(str(string))
     index += 1
 
 print('*'*20)
@@ -45,3 +45,17 @@ while num > 0:
     print(num)
     num -= 1
 print ("Happy New Year")
+
+print('*'*20)
+numbers=[1,2,3,4,5]
+total=0
+index=0
+
+while total < 10:
+    total += numbers[index]
+    index += 1
+
+print("Total: ", total)
+print(f"Total: {total} for the list {numbers}")
+print('*'*20)
+

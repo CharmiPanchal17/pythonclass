@@ -45,3 +45,12 @@ def Age():
     print(Name(), age1)
 
 Age()
+
+
+#pass key word
+def function():
+    pass
+
+
+def function():
+    print("Not an empty function")
