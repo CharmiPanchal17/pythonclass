@@ -22,5 +22,5 @@ print(tuple3 < tuple2)  #outputs a False because there are equal number of indic
 #slicing a tuple
 tuple5 = ('John', False, 20, 0.7)
 slicing_tuple= tuple5[1:3] #This will only return from index1 and index2 because index3 is not inclued
-slicing_tuple2= tuple5[1:1:3]
+slicing_tuple2= tuple5[1:2:3] #This will be looked at again 
 print(slicing_tuple)
