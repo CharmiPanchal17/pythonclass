@@ -33,7 +33,7 @@ if(choice=='a' or choice=='A'):
 
 elif(choice=='b' or choice=='B'):
     print("the difference is: ")
-    sub(a,b)
+    sub(a,b) 
     
 
 elif(choice=='c' or choice=='C'):
