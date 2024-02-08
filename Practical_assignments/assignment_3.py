@@ -5,6 +5,7 @@ if (age >= 20):
     print("You are an adult")
 else:
     print("You are still young", "\n")
+print('*'*20)
 
 #comparison operations
 set1= ['John', 'Mary', 'Sarah']
@@ -27,6 +28,7 @@ def interest():
     else:
         print("You have earned little interest", "\n")
 interest() 
+print('*'*20)
 
 #assignment operators
 
@@ -38,4 +40,27 @@ b=int(b)
 
 a**=b
 print("The answer for 'a' is: ", a)
+print('*'*20)
+
+#precedence operators
+
+a=6
+b=19
+c=20
+d=21
+e=10
+
+f= a+b * c/d 
+print("The value of a+b * c/d is:", f)
+
+g= (a+b) * (c/d)
+print("The value of (a+b) * (c/d) is:", g)
+
+h= ((a+b)*c) /d 
+print("The value of ((a+b)*c) /d is:", h)
+
+i= a + (b*c)/d 
+print("The value of a + (b*c)/d is:", i)
+
+
 
