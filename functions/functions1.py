@@ -36,3 +36,12 @@ def func2():
     
 func2()
 
+def Name():
+    name1= input("Enter your name:")
+    return name1
+
+def Age():
+    age1=input("Enter your age:")
+    print(Name(), age1)
+
+Age()
