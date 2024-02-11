@@ -1,5 +1,5 @@
 # while 0<10:
-#     print("infinite loop")     #this print infintely wihtout terminating
+#     print("infinite loop")     #this prints infintely wihtout terminating
 
 count =3       #this startes counting from 3
 while count <= 10:
@@ -14,7 +14,7 @@ count=1
 while count<=10:
     sum += count #This increaments the current sum ie triangular numbers
     count += 1
-print("The sum of numbers1 to 10 is:", sum)  #printint outside the while loop will only print the final answer when the limit of the loop had been reached
+print("The sum of numbers1 to 10 is:", sum)  #printing outside the while loop will only print the final answer when the limit of the loop had been reached
 print('*'*20)
 
 # printing even numbers between 1 and 20
@@ -34,13 +34,14 @@ while y<=5:
 string= "Python"
 index = 1
 while index <= len(string):
-    print(string(index))
+    print(str(index))
     index += 1
+
 print('*'*20)
 
 # counting down from a specified number
-num= int(input("Enter a number to count: "))
-while num < 0:
+num= int(input("Enter a number to count down from: "))
+while num > 0:
     print(num)
     num -= 1
 print ("Happy New Year")

@@ -5,6 +5,7 @@ print('*'*20)
 print("Select an option: ")
 print(" A: Withdrawing money.")
 print(" B: Depositing money.")
+print('*'*20)
 
 action= input("Enter your option: ")
 print('*'*20)
@@ -34,7 +35,7 @@ elif( action=='b' or action=='B'):
     add(b,d)
 
 else:
-    print("Opps! You entered a wrong choice:", action)
+    print("Opps! An ivalid letter was chosen:", action)
     
 
 
