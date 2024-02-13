@@ -1,3 +1,14 @@
+#list comprehension
+
+students=['Charmi', 'Rajvir', 'Joel', 'Mumbere', 'Emma', 'Morris', 'Aksam']
+index=0
+
+new_list= [student for student in students if 'a' in student]
+
+print(new_list)
+
+
+
 # removing from list using pop method
 
 list1=[1,2,3,4,5,6]
