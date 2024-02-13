@@ -1,41 +1,21 @@
-# Banking program
+#list comprehension
+
+students=['Charmi', 'Rajvir', 'Joel', 'Mumbere', 'Emma', 'Morris', 'Aksam']
+index=0
+
+new_list= [student for student in students if 'a' in student]
+
+print(new_list)
 
 
-print('*'*20)
-print("Select an option: ")
-print(" A: Withdrawing money.")
-print(" B: Depositing money.")
-print('*'*20)
 
-action= input("Enter your option: ")
-print('*'*20)
+# removing from list using pop method
 
-if( action=='a' or action=='A'):
-    w= int(input("Enter the amount you want to withdraw: "))
-    print('*'*20)
-    b= int(input("Enter the current amount of bank balance in your account: "))
-    print('*'*20)
+list1=[1,2,3,4,5,6]
+list1.pop(3)
+print(list1)
 
-    def sub(b,w):
-        answer=b-w
-        print("Your new account balance is: ")
-        print(str(b) + '-' + str(w) + '=' + "Shs." + str(answer))
-    sub(b,w)
-
-elif( action=='b' or action=='B'):
-    d= int(input("Enter the amount you want to deposit: "))
-    print('*'*20)
-    b= int(input("Enter the current amount of bank balance in your account: "))
-    print('*'*20)
-
-    def add(b,d):
-        answer=b+d 
-        print("Your new account balance is: ")
-        print(str(b) + '+' + str(d) + '=' + "Shs." + str(answer))
-    add(b,d)
-
-else:
-    print("Opps! An ivalid letter was chosen:", action)
-    
-
-
+#deleting from dictionary using pop method
+dict={'Mango':'fruit', 'Rose':'Flower', 'Blue':'Color'}
+dict.pop('Blue')
+print(dict)
