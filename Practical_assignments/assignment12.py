@@ -3,10 +3,10 @@
 from abc import ABC, abstractmethod              #abc is a module that helps achieve abstraction
 
 #Example 1
-class Vehical(ABC):
+class Vehical(ABC):        #objects cannot be created from an abstarct class therefore we have to create a concrete class to use the abstarct method to create objects
 
-    @abstractmethod
-    def start(self):
+    @abstractmethod                 #this is a decorator method used to define what is under
+    def start(self):                      
         pass
 
 class Car(Vehical):
